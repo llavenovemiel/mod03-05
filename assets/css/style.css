@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+	margin: 0;
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+	background-color: #DBE9EE;
+	color: #4A6FA5; 
+}
+
+header {
+	height: 70px;
+	color: #FCFCFC;
+	text-align: center;
+	line-height: 70px;
+	font-size: 10px;
+	background-color: #aee5ff;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 100 100'%3E%3Cg stroke='%2393a7cc' stroke-width='0' %3E%3Crect fill='%23a2d4f5' x='-60' y='-60' width='110' height='240'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+footer {
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	color: #FCFCFC;
+	background-color: #aee5ff;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 100 100'%3E%3Cg stroke='%2393a7cc' stroke-width='0' %3E%3Crect fill='%23a2d4f5' x='-60' y='-60' width='110' height='240'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.dashboard-thumbnail {
+	display: inline-block;
+	width: 40%;
+	height: 70px;
+}
+
+.dashboard-circles {
+	height: 70px;
+	width: 70px;
+	background-color: red;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 70px;
+	color: #fff;
+	margin-right: 20px;
+	float: left;
+}
+
+#post-circle {
+	background-color: #4F9D7A;
+	margin-left: 60px;
+}
+
+#image-circle {
+	background-color: #4F9D7A;
+	margin-left: 60px
+}
+
+#post-title {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+#post-content {
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+
+.btn {
+	border: none;
+	padding: 15px 30px;
+	font-size: 14px;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.btn-blue {
+	background-color: #4A6F97;
+}
+
+.btn-green {
+	background-color: #4F9D7A;
+}
+
+#btn-browse {
+	margin-left: 20px;
+}
+
+.hide-overflow {
+	overflow: hidden;
+}
+
+.img-set {
+	height: 100px;
+	width:	70px;
+	background-color: white;
+	padding-left: 5px;
+	border-radius: 5px;
+	margin: 0 5px;
+}
+
+.img-set-holder {
+	text-align: center;
+}
+
+.inline-blocked {
+	display: inline-block;
+	/*height: 70px;*/
+}
+
+.main-dashboard {
+	height: 70px;
+}
+
+.dashboard-text {
+	margin: 0;
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+main {
+	padding: 20px;
+}
+
+#newpost, #upload, .img-set-holder, .hide-overflow {
+	margin-top: 10px
+}
+
+#btn-publish,
+#btn-upload,
+#btn-browse {
+	float: right;
+}
